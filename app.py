@@ -11,6 +11,7 @@ from wordcloud import WordCloud,STOPWORDS
 from matplotlib import pyplot as plt
 import time
 import json
+import nltk
 from nltk.corpus import stopwords
 from gensim.corpora import Dictionary
 from spacy.lang.en import English
