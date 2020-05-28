@@ -16,7 +16,6 @@ from gensim.corpora import Dictionary
 from spacy.lang.en import English
 import pyLDAvis.gensim
 from gensim.models import CoherenceModel, LdaModel, LsiModel, HdpModel
-import nltk
 import import_ipynb
 import gensim
 def namess(dfa):
