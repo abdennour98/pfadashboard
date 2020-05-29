@@ -259,7 +259,7 @@ def send():
                 r20 = r20 +'%20'
             else:
                 r20 = r20 + i 
-        r = requests.get('http://export.arxiv.org/api/query?search_query=all:'+r20+'&start=0&max_results=1000')
+        r = requests.get('http://export.arxiv.org/api/query?search_query=all:'+r20+'&start=0&max_results=500')
         xml = r.text
         doc=xmltodict.parse(xml)
         data = pd.DataFrame(doc)
