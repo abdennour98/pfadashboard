@@ -20,6 +20,7 @@ from gensim.models import CoherenceModel, LdaModel, LsiModel, HdpModel
 import import_ipynb
 import gensim
 import os
+nltk.download('stopwords')
 def namess(dfa):
     names=[]
     for i in range (0,dfa.count()):
